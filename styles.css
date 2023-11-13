@@ -1,0 +1,100 @@
+body {
+    font-family: 'Comic Sans MS', cursive;
+    margin: 0;
+    padding: 0;
+    background-image: url('https://storage.googleapis.com/images-sof-prd-9fa6b8b.sof.prd.v8.commerce.mi9cloud.com/product-images/detail/804.jpg');
+    background-size: cover;
+    background-position: center;
+    color: #000000;
+    text-align:center;
+}
+
+header {
+    background-color: #3498db;
+    color: #fff;
+    text-align: center;
+    padding: 1em;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+#imagery {
+    text-align: center;
+}
+.images {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.images img {
+    width: 30%;
+    border-radius: 8px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.images img:hover {
+    transform:scale(1.1);
+}
+
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-container img {
+    max-width: 300px; /* Adjust the maximum width as needed */
+    border-radius: 8px;
+    margin: 0 10px;
+}
+#nutrition {
+    margin-top: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+#logo img {
+    max-width: 100px;
+    height: auto;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+#company-info {
+    /* Your existing styles */
+    padding: 15px;
+    border: 2px solid #f8f8f8;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition for the hover effect */
+}
+
+#company-info:hover {
+    color: #4e54c8;
+}
+
+
+
+
